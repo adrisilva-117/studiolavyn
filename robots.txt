@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://studiolavyn.com/sitemap.xml

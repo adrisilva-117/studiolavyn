@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>lavynstudio — Creative &amp; Marketing Studio</title>
+  <meta name="description" content="Studio Lavyn is a Miami-based creative and marketing studio: content production, branding, social media and strategy. Packages from $425/month.">
+  <meta name="theme-color" content="#ffde58">
+  <link rel="icon" href="assets/about/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/about/apple-touch-icon.png">
+  <link rel="canonical" href="https://studiolavyn.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Studio Lavyn">
+  <meta property="og:title" content="lavynstudio — Creative &amp; Marketing Studio">
+  <meta property="og:description" content="Miami-based creative and marketing studio: content production, branding, social media and strategy.">
+  <meta property="og:url" content="https://studiolavyn.com/">
+  <meta property="og:image" content="https://studiolavyn.com/assets/about/share.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Set theme before paint -->
+  <script>
+    try {
+      const t = localStorage.getItem('theme');
+      if (t) document.documentElement.dataset.theme = t;
+    } catch (_) {}
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter+Tight:wght@400;500;700;800;900&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&display=swap">
+  <link rel="stylesheet" href="css/main.css">
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-no-pan>Skip to content</a>
+
+  <!-- The "stage" holds the page; it is hidden while a detail page is open. -->
+  <div class="stage" data-stage>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#top" class="logo" aria-label="lavynstudio, back to top">
+          <img class="on-light" src="assets/about/logo.png" alt="" width="1300" height="314">
+          <img class="on-dark" src="assets/about/logo-light.png" alt="" width="1300" height="314">
+        </a>
+
+        <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav id="site-nav" class="site-nav">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#packages">Packages</a>
+          <a href="#founders">Founders</a>
+          <a href="#contact">Contact</a>
+          <div class="nav-tools">
+            <button class="icon-btn theme-toggle" aria-label="Toggle dark mode" title="Toggle theme">
+              <span class="theme-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- 1. COVER -->
+      <section class="hero" id="top">
+        <div class="container">
+          <div class="hero-frame" data-reveal>
+            <h1>
+              <img class="hero-logo on-light" src="assets/about/logo.png" alt="lavynstudio creative" width="1300" height="314">
+              <img class="hero-logo on-dark" src="assets/about/logo-light.png" alt="lavynstudio creative" width="1300" height="314">
+            </h1>
+            <div class="hero-meta" aria-hidden="true"><span class="rec">AF · READY</span><span>1/125 · F2.8 · ISO 100</span></div>
+          </div>
+          <div class="hero-tagline" data-reveal>
+            <p>Your vision. <mark>Our creative touch.</mark></p>
+            <a href="#about" class="btn btn-ghost">Made to be different</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. ABOUT US -->
+      <section id="about" class="section about">
+        <div class="container about-grid">
+          <div>
+            <h2 class="title-rule" data-reveal>About us</h2>
+            <p class="eyebrow" data-reveal>A creative studio with a different perspective.</p>
+            <div class="yellow-box" data-reveal>
+              <p><b><em>Studio Lavyn</em></b> is an independent creative and marketing studio bringing together bold ideas, visual storytelling, and thoughtful strategy.</p>
+              <p>From branding and content creation to social media and digital marketing, we help brands build a distinctive identity, connect with their audience, and stand out.</p>
+              <p>We believe creativity should do more than look good. It should tell a story, create an impact, and make brands unforgettable.</p>
+            </div>
+            <p class="tag made-different" data-reveal>Made to be different</p>
+          </div>
+          <div class="about-photo" data-reveal>
+            <img src="assets/about/carla-portrait.webp" alt="Carla, co-founder of Studio Lavyn, in a black suit" width="922" height="1383" loading="lazy">
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. SERVICES: what we offer (styled after the "Services Guide" PDF) -->
+      <section id="services" class="section offer">
+        <div class="container">
+          <div class="offer-do">
+            <div class="offer-do-copy" data-reveal>
+              <h2 class="offer-label">What we offer</h2>
+              <p>At Studio Lavyn, we bring creativity and strategy together to help brands build a presence that feels authentic, distinctive, and memorable.</p>
+              <p>From photography and video production to branding, social media management, and marketing strategy, we take care of the creative details that make a difference.</p>
+              <p>Whether you're launching something new, refreshing your image, or looking to grow your online presence, we turn your ideas into meaningful content and thoughtful creative solutions.</p>
+            </div>
+            <figure class="offer-photo" data-reveal>
+              <img src="assets/about/camera-setup.webp" alt="Camera on a tripod with a studio light" width="720" height="960" loading="lazy">
+            </figure>
+          </div>
+
+          <ul class="services-list">
+            <li data-reveal>
+              <a href="#/svc-content" class="service" data-zoom="svc-content">
+                <span class="service-index">01</span>
+                <h3>Content Production</h3>
+                <p>Product photography, videography, lifestyle shoots and campaigns: visuals that capture attention.</p>
+                <span class="snap-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>Learn more</span>
+              </a>
+            </li>
+            <li data-reveal>
+              <a href="#/svc-branding" class="service" data-zoom="svc-branding">
+                <span class="service-index">02</span>
+                <h3>Branding &amp; Design</h3>
+                <p>Unique visual identities and thoughtful design, from logo creation and rebranding to packaging, websites and creative direction.</p>
+                <span class="snap-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>Learn more</span>
+              </a>
+            </li>
+            <li data-reveal>
+              <a href="#/svc-social" class="service" data-zoom="svc-social">
+                <span class="service-index">03</span>
+                <h3>Social Media &amp; Strategy</h3>
+                <p>Content strategy, social planning, digital campaigns and performance analysis that drive real results.</p>
+                <span class="snap-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>Learn more</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <hr class="offer-rule">
+        <div class="container" id="packages">
+          <div class="offer-packages-head">
+            <h2 class="offer-heading" data-reveal>Our packages</h2>
+            <div class="offer-intro" data-reveal>
+              <h3>Creative solutions made for you</h3>
+              <p>Every brand has a different story, different goals, and different needs. That's why we've created a selection of services designed to support your vision, whether you're building your online presence or ready to take it to the next level.</p>
+            </div>
+          </div>
+
+          <ul class="packages">
+            <li data-reveal><a href="#/pkg-essential" class="package pkg-essential" data-zoom="pkg-essential"><span class="pkg-name">Essential</span><span class="pkg-price">$450/month</span><span class="snap-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>What's included</span></a></li>
+            <li data-reveal><a href="#/pkg-growth" class="package pkg-growth" data-zoom="pkg-growth"><span class="pkg-name">Growth</span><span class="pkg-price">$800/month</span><span class="snap-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>What's included</span></a></li>
+            <li data-reveal><a href="#/pkg-premium" class="package pkg-premium" data-zoom="pkg-premium"><span class="pkg-name">Premium</span><span class="pkg-price">$1,300/month</span><span class="snap-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>What's included</span></a></li>
+            <li data-reveal><a href="#/pkg-creator" class="package pkg-creator" data-zoom="pkg-creator"><span class="pkg-name">Creator</span><span class="pkg-price">$425/month</span><span class="snap-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>What's included</span></a></li>
+          </ul>
+
+          <a href="#/a-la-carte" class="alacarte" data-zoom="a-la-carte" data-reveal>
+            <span class="alacarte-title">À la carte.</span>
+            <span class="alacarte-copy">Your vision, your way. Creative services tailored to your needs.</span>
+            <span class="snap-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>See prices</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- 4. MEET THE FOUNDERS -->
+      <section id="founders" class="section founders">
+        <div class="ticker" aria-hidden="true">
+          <div class="ticker-row"><span>MEET THE FOUNDERS</span><span>MEET THE FOUNDERS</span><span>MEET THE FOUNDERS</span><span>MEET THE FOUNDERS</span></div>
+          <div class="ticker-row"><span>MEET THE FOUNDERS</span><span>MEET THE FOUNDERS</span><span>MEET THE FOUNDERS</span><span>MEET THE FOUNDERS</span></div>
+          <div class="ticker-row"><span>MEET THE FOUNDERS</span><span>MEET THE FOUNDERS</span><span>MEET THE FOUNDERS</span><span>MEET THE FOUNDERS</span></div>
+          <div class="ticker-row"><span>MEET THE FOUNDERS</span><span>MEET THE FOUNDERS</span><span>MEET THE FOUNDERS</span><span>MEET THE FOUNDERS</span></div>
+          <div class="ticker-row"><span>MEET THE FOUNDERS</span><span>MEET THE FOUNDERS</span><span>MEET THE FOUNDERS</span><span>MEET THE FOUNDERS</span></div>
+          <div class="ticker-row"><span>MEET THE FOUNDERS</span><span>MEET THE FOUNDERS</span><span>MEET THE FOUNDERS</span><span>MEET THE FOUNDERS</span></div>
+        </div>
+        <div class="container founders-grid">
+          <h2 class="visually-hidden">Meet the founders</h2>
+          <a href="#/founders" class="founders-photo" data-zoom="founders" data-reveal>
+            <img src="assets/about/founders.webp" alt="Carla and Adriano, the founders, in black outfits and sunglasses" width="788" height="1400" loading="lazy">
+            <span class="snap-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>Meet the founders</span>
+          </a>
+          <div class="yellow-box founders-box" data-reveal>
+            <p>Meet <b><em>Carla &amp; Adriano</em></b>, the creative and business minds behind Studio Lavyn.</p>
+            <p>We bring together <b>creativity</b>, <b>strategy</b>, and ambition to build <b>brands</b> that <b><em>stand out</em></b>.</p>
+            <p class="quote">Different strengths. One shared vision.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. LET'S WORK TOGETHER -->
+      <section id="contact" class="section contact">
+        <div class="container">
+          <h2 data-reveal>Let's work <span class="serif">together</span></h2>
+          <div class="contact-stage" data-reveal>
+            <div class="contact-copy">
+              <p>Have a brand, a vision, or an idea in mind?</p>
+              <p>From creative concepts to impactful marketing, we're here to bring your ideas to life.</p>
+            </div>
+            <img src="assets/about/phone.webp" alt="" width="517" height="318" loading="lazy">
+          </div>
+          <p class="vision" data-reveal><mark>Your vision.</mark> Our creative touch.</p>
+          <a href="#/contact" class="btn btn-primary" data-zoom="contact">Let's talk.</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <img class="on-light" src="assets/about/logo.png" alt="lavynstudio" width="1300" height="314">
+        <img class="on-dark" src="assets/about/logo-light.png" alt="lavynstudio" width="1300" height="314">
+        <span class="footer-tag">Made to be different</span>
+        <p>© <span data-year></span> Studio Lavyn. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- The photo you just "took". Content is cloned in from the templates below. -->
+  <div class="shot" data-shot-view role="dialog" aria-modal="true" aria-labelledby="shot-title" hidden>
+    <button class="btn btn-ghost shot-close" data-shot-close>← Back</button>
+    <div class="shot-body"></div>
+  </div>
+
+  <!-- ===== DETAIL PAGES =====
+       One <template data-shot="id"> per clickable element (matches data-zoom="id"). -->
+
+  <template data-shot="svc-branding">
+    <article>
+      <h2>Branding <span class="serif">&amp; design.</span></h2>
+      <p class="lead">We bring brands to life through unique visual identities and thoughtful design. From logo creation and rebranding to packaging, websites, graphic design, and creative direction, we craft cohesive, memorable brands that stand out.</p>
+      <div class="print-row">
+        <figure class="print"><img src="assets/about/carla-tablet.webp" alt="Carla sketching on a tablet" width="615" height="922"></figure>
+        <figure class="print" style="background: var(--brand-paper); display: grid; place-items: center;"><img src="assets/about/logo.png" alt="lavynstudio logo" width="1300" height="314" style="max-height:none"></figure>
+      </div>
+      <div class="shot-cols">
+        <div><h3>What we make</h3><ul><li>Logo creation</li><li>Rebranding</li><li>Packaging</li><li>Websites</li><li>Graphic design</li><li>Creative direction</li></ul></div>
+      </div>
+      <a href="#/contact" class="btn btn-primary">Start your brand</a>
+    </article>
+  </template>
+
+  <template data-shot="svc-content">
+    <article>
+      <h2>Content <span class="serif">production.</span></h2>
+      <p class="lead">We bring ideas to life through creative content and visual storytelling. From product photography and videography to lifestyle shoots, social media content, and creative campaigns, we produce engaging visuals that capture attention, connect with audiences, and make brands stand out.</p>
+      <div class="print-row">
+        <figure class="print"><img src="assets/about/camera-setup.webp" alt="Camera on a tripod with a studio light" width="720" height="960"></figure>
+        <figure class="print"><img src="assets/about/work-cheesecake.webp" alt="Cheesecake food shot" width="432" height="768"></figure>
+        <figure class="print"><img src="assets/about/work-haircare.webp" alt="Haircare product shot" width="435" height="580"></figure>
+      </div>
+      <div class="shot-cols">
+        <div><h3>What we shoot</h3><ul><li>Product photography</li><li>Videography</li><li>Lifestyle shoots</li><li>Social media content</li><li>Creative campaigns</li></ul></div>
+      </div>
+      <a href="#/contact" class="btn btn-primary">Book a shoot</a>
+    </article>
+  </template>
+
+  <template data-shot="svc-social">
+    <article>
+      <h2>Social media <span class="serif">&amp; marketing.</span></h2>
+      <p class="lead">We help brands grow through strategic marketing and social media management. From content strategy and social media planning to digital campaigns, community engagement, and performance analysis, we create impactful strategies that boost visibility, build brand awareness, and drive real results.</p>
+      <div class="print-row">
+        <figure class="print print-solo"><img src="assets/about/social-media-flatlay.webp" alt="Flat-lay of a phone showing a curated social media feed, a content calendar notebook, a sticky note, a pen and a rising analytics chart" width="896" height="1120"></figure>
+      </div>
+      <div class="shot-cols">
+        <div><h3>What's included</h3><ul><li>Content strategy</li><li>Social media planning</li><li>Digital campaigns</li><li>Community engagement</li><li>Performance analysis</li></ul></div>
+      </div>
+      <a href="#/contact" class="btn btn-primary">Grow your brand</a>
+    </article>
+  </template>
+
+  <template data-shot="founders">
+    <article>
+      <p class="eyebrow">Meet the founders</p>
+      <h2>Carla <span class="serif">&amp;</span> Adriano.</h2>
+      <p class="lead">The creative and business minds behind Studio Lavyn. Different strengths. One shared vision.</p>
+      <div class="print-row">
+        <figure class="print"><img src="assets/about/founders.webp" alt="Carla and Adriano" width="788" height="1400"></figure>
+        <figure class="print"><img src="assets/about/carla-portrait.webp" alt="Carla" width="922" height="1383"></figure>
+      </div>
+      <div class="shot-cols">
+        <div><h3>Carla · Co-Founder</h3><p>At Studio Lavyn, she leads creative direction, branding, content production, and social media strategy, turning ideas into memorable brand experiences.</p></div>
+        <div><h3>Adriano · Co-Founder and Business Operations</h3><p>With a background in banking and business, Adriano brings an analytical and strategic perspective to Studio Lavyn. He focuses on business development, operations, client relationships, and long-term growth, ensuring that every creative idea is supported by a clear business vision.</p></div>
+      </div>
+      <div class="yellow-box"><p>Together, we combine creativity and business strategy to help brands stand out, connect, and grow.</p></div>
+    </article>
+  </template>
+
+  <template data-shot="contact">
+    <article>
+      <p class="eyebrow">Your vision. Our creative touch.</p>
+      <h2>Let's <span class="serif">talk.</span></h2>
+      <p class="lead">Have a brand, a vision, or an idea in mind? Leave your details and we'll be in touch.</p>
+
+      <form class="contact-form" name="contact" data-contact-form novalidate>
+        <!-- FormSubmit settings: email subject, table layout, spam trap (bots fill _honey, people never see it) -->
+        <input type="hidden" name="_subject" value="New enquiry from studiolavyn.com">
+        <input type="hidden" name="_template" value="table">
+        <p class="visually-hidden" aria-hidden="true"><label>Leave this empty: <input name="_honey" tabindex="-1" autocomplete="off"></label></p>
+        <div class="field">
+          <label for="cf-name">Name <span class="req" aria-hidden="true">*</span></label>
+          <input id="cf-name" name="name" type="text" autocomplete="name" required>
+          <p class="field-error" id="cf-name-error"></p>
+        </div>
+        <div class="field">
+          <label for="cf-email">Email <span class="req" aria-hidden="true">*</span></label>
+          <input id="cf-email" name="email" type="email" autocomplete="email" inputmode="email" required>
+          <p class="field-error" id="cf-email-error"></p>
+        </div>
+        <div class="field">
+          <label for="cf-phone">Phone number</label>
+          <input id="cf-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel">
+          <p class="field-error" id="cf-phone-error"></p>
+        </div>
+        <div class="field">
+          <label for="cf-company">Company name</label>
+          <input id="cf-company" name="company" type="text" autocomplete="organization">
+          <p class="field-error" id="cf-company-error"></p>
+        </div>
+        <div class="form-foot">
+          <button type="submit" class="btn btn-primary">Send</button>
+          <p class="form-note"><span aria-hidden="true">*</span> Required</p>
+        </div>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+
+      <div class="shot-cols">
+        <div><h3>Email</h3><p><a href="mailto:contact@studiolavyn.com">contact@studiolavyn.com</a></p></div>
+        <div><h3>Studio</h3><p>Miami, FL</p></div>
+        <div><h3>Social</h3><p><a href="#">Instagram</a> · <a href="#">TikTok</a> · <a href="#">LinkedIn</a></p></div>
+      </div>
+    </article>
+  </template>
+
+  <!-- ===== PACKAGES (from the "Services Guide" PDF) ===== -->
+  <template data-shot="pkg-essential">
+    <article class="pkg-detail">
+      <div class="pkg-top"><span class="pkg-top-price">$450/month</span><span class="offer-year" aria-hidden="true"><i></i>2026</span></div>
+      <h2 class="offer-title">The essential.</h2>
+      <p class="pkg-desc">Designed for businesses that already have their own content but want a polished, consistent, and professional social media presence.</p>
+      <hr class="offer-rule">
+      <h3 class="pkg-included">What's included</h3>
+      <ul class="pkg-list">
+        <li>8 feed posts per <b><i>month</i></b></li>
+        <li>8 Story frames per <b><i>month</i></b></li>
+        <li><b>Basic</b> photo <b>editing</b> &amp; color correction</li>
+        <li>Feed aesthetic <b>optimization</b></li>
+        <li><b><i>Monthly</i></b> content planning</li>
+        <li><b>Caption</b> writing &amp; hashtags</li>
+        <li><b>Scheduling</b> &amp; <b>publishing</b></li>
+        <li>1 social <b>media</b> platform (Instagram or Facebook)</li>
+        <li><b>Basic</b> monthly performance report</li>
+        <li>1 <b>revision</b> round on calendar and captions</li>
+        <li>Website</li>
+      </ul>
+      <a href="#/contact" class="btn btn-primary">Get started</a>
+    </article>
+  </template>
+
+  <template data-shot="pkg-growth">
+    <article class="pkg-detail">
+      <div class="pkg-top"><span class="pkg-top-price">$800/month</span><span class="offer-year" aria-hidden="true"><i></i>2026</span></div>
+      <h2 class="offer-title">The growth.</h2>
+      <p class="pkg-desc">Designed for businesses ready to elevate their social media with professional photography, engaging video content, and consistent creative management.</p>
+      <hr class="offer-rule">
+      <h3 class="pkg-included">What's included</h3>
+      <ul class="pkg-list pkg-list-2col">
+        <li>12 feed posts per <b><i>month</i></b> (including up to 2 Reels)</li>
+        <li>12 Story frames per <b><i>month</i></b></li>
+        <li>1 <b><i>monthly</i></b> content <b>shoot</b> (2 hours)</li>
+        <li>Up to <b>15</b> edited <b>photos</b> delivered</li>
+        <li>Up to 2 <b>professionally edited</b> Reels (60 seconds max)</li>
+        <li>Up to 2 custom <b>carousels</b> (5 slides each)</li>
+        <li>Up to 2 custom <b>graphic posts</b></li>
+        <li><b>Basic</b> photo editing &amp; color correction</li>
+        <li>Instagram profile <b>optimization</b> (one-time setup)</li>
+        <li><b>Monthly</b> content strategy &amp; planning</li>
+        <li><b>Caption</b> writing &amp; hashtags</li>
+        <li><b>Scheduling</b> &amp; <b>publishing</b> on 1 platform (Instagram or Facebook)</li>
+        <li><b><i>Monthly</i></b> performance report</li>
+        <li>1 <b>revision</b> round per deliverable</li>
+        <li>Website</li>
+      </ul>
+      <a href="#/contact" class="btn btn-primary">Get started</a>
+    </article>
+  </template>
+
+  <template data-shot="pkg-premium">
+    <article class="pkg-detail">
+      <div class="pkg-top"><span class="pkg-top-price">$1,300/month</span><span class="offer-year" aria-hidden="true"><i></i>2026</span></div>
+      <h2 class="offer-title">The premium.</h2>
+      <p class="pkg-desc">Designed for businesses looking for more than social media management. A complete creative and marketing partnership combining professional content production, brand strategy, and ongoing guidance to build a stronger, more distinctive presence.</p>
+      <hr class="offer-rule">
+      <h3 class="pkg-included">What's included</h3>
+      <div class="pkg-groups">
+        <section>
+          <h4>Social media management</h4>
+          <ul class="pkg-list">
+            <li>12 feed posts per <b><i>month</i></b> (including Reels)</li>
+            <li>16 Story frames per <b><i>month</i></b></li>
+            <li>Instagram + Facebook <b>management</b></li>
+            <li>Up to 3 custom <b>carousels</b> (5 slides each)</li>
+            <li>Up to 3 custom <b>graphic posts</b></li>
+            <li><b>Captions</b>, <b>scheduling</b> &amp; <b>publishing</b></li>
+            <li>Website</li>
+          </ul>
+        </section>
+        <section>
+          <h4>Content creation</h4>
+          <ul class="pkg-list">
+            <li>1 <b><i>monthly</i></b> content shoot (2 hours)</li>
+            <li>Up to 25 <b>professionally</b> edited photos</li>
+            <li>Up to 4 <b>edited</b> Reels (60 seconds max)</li>
+            <li><b>Creative direction</b>, <b>moodboard</b> &amp; <b>shot list</b></li>
+          </ul>
+        </section>
+        <section>
+          <h4>Brand strategy &amp; marketing</h4>
+          <ul class="pkg-list">
+            <li><b>In-depth brand</b> &amp; social media <b>audit</b></li>
+            <li><b>Target</b> audience &amp; competitor research</li>
+            <li>Visual brand <b>direction</b></li>
+            <li><b>Personalized</b> strategy document (5–8 pages)</li>
+            <li><b>Content pillars</b> &amp; <b>marketing objectives</b></li>
+            <li><b>Full</b> Instagram profile <b>optimization</b></li>
+            <li>5 <b>custom</b> Highlight covers</li>
+            <li>1 <b><i>monthly</i></b> campaign concept</li>
+          </ul>
+        </section>
+      </div>
+      <a href="#/contact" class="btn btn-primary">Get started</a>
+    </article>
+  </template>
+
+  <template data-shot="pkg-creator">
+    <article class="pkg-detail">
+      <div class="pkg-top"><span class="pkg-top-price">$425/month</span><span class="offer-year" aria-hidden="true"><i></i>2026</span></div>
+      <h2 class="offer-title">The creator.</h2>
+      <p class="pkg-desc">Designed for everyday creators who want to take their content to the next level. Whether you're sharing your lifestyle, filming vlogs, creating talking-head videos, or simply looking to grow your online presence, we help turn your footage into engaging, polished content.</p>
+      <hr class="offer-rule">
+      <h3 class="pkg-included">What's included</h3>
+      <div class="pkg-groups">
+        <section>
+          <h4>Video editing</h4>
+          <ul class="pkg-list">
+            <li>6 professionally <b>edited</b> short-form videos per month</li>
+            <li>Talking-head videos, vlogs &amp; lifestyle <b>content</b></li>
+            <li><b>Dynamic</b> cuts, transitions &amp; on-screen text</li>
+            <li>Subtitles, music &amp; basic audio <b>enhancement</b></li>
+            <li><b>Basic</b> color correction</li>
+            <li>Videos up to <b>60</b> seconds each</li>
+            <li>1 <b>revision</b> round per video</li>
+          </ul>
+        </section>
+        <section>
+          <h4>Personalized support</h4>
+          <ul class="pkg-list">
+            <li>1 monthly content planning <b>call</b> (20 minutes)</li>
+            <li>Basic <b><i>monthly</i></b> performance review</li>
+          </ul>
+        </section>
+        <section>
+          <h4>Content &amp; creative guidance</h4>
+          <ul class="pkg-list">
+            <li><b><i>Monthly</i></b> content ideas &amp; planning</li>
+            <li><b>Hook</b> suggestions &amp; storytelling guidance</li>
+            <li><b>Basic</b> Instagram or TikTok profile optimization (one-time setup)</li>
+            <li>Caption suggestions &amp; keyword <b>optimization</b></li>
+          </ul>
+        </section>
+      </div>
+      <a href="#/contact" class="btn btn-primary">Get started</a>
+    </article>
+  </template>
+
+  <template data-shot="a-la-carte">
+    <article class="pkg-detail">
+      <div class="pkg-top"><span class="pkg-top-price">Priced per service</span><span class="offer-year" aria-hidden="true"><i></i>2026</span></div>
+      <h2 class="offer-title">À la carte.</h2>
+      <p class="pkg-desc">Your vision, your way. Creative services tailored to your needs.</p>
+      <hr class="offer-rule">
+      <h3 class="pkg-included">What's included</h3>
+      <div class="pkg-groups">
+        <section>
+          <h4>Video editing</h4>
+          <ul class="pkg-list">
+            <li><b>Short-form</b> Video / Reel Editing — $75</li>
+            <li>Talking-Head / Face-Camera <b>Editing</b> — $75</li>
+            <li>4 Edited <b>Videos</b> — $280</li>
+            <li>8 Edited <b>Videos</b> — $520</li>
+            <li>Long-Form Video <b>Editing</b> — Custom Quote</li>
+          </ul>
+        </section>
+        <section>
+          <h4>Social media design</h4>
+          <ul class="pkg-list">
+            <li>Single <b>Graphic Post</b> — $40</li>
+            <li>Custom <b>Carousel</b> (up to 5 slides) — $75</li>
+            <li>Single <b>Story Graphic</b> — $20</li>
+            <li>3-Story <b>Design</b> Set — $50</li>
+            <li><b><i>Monthly</i></b> Content Calendar — $150</li>
+          </ul>
+        </section>
+        <section>
+          <h4>Photography &amp; content production</h4>
+          <ul class="pkg-list">
+            <li>2-Hour Content <b>Shoot</b> (15 Edited Photos) — $350</li>
+            <li>Advanced Photo <b>Editing</b> — $25/photo</li>
+            <li>5 <b>Basic</b> Photo Edits — $60</li>
+            <li>Product <b>Photography</b> (5 Images) — From $175</li>
+            <li><b>Creative</b> Campaign Production — Custom Quote</li>
+          </ul>
+        </section>
+      </div>
+      <p class="pkg-footnote">*Paid ad campaigns available upon request</p>
+      <a href="#/contact" class="btn btn-primary">Ask for a quote</a>
+    </article>
+  </template>
+</body>
+</html>
